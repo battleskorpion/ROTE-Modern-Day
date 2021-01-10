@@ -1,0 +1,23 @@
+
+state={
+	id=24
+	name="STATE_24"
+
+	history={
+		owner = ISR
+		add_core_of = ISR
+		add_core_of = PAL
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		80 1193 1989 2736 2751 3985 4010 4012 4031 4033 8674 8675 8676 8677 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

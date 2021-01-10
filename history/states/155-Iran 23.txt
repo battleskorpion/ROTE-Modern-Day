@@ -1,0 +1,20 @@
+
+state={
+	id=155
+	name="STATE_155"
+	provinces={
+		1 25 369 523 598 654 850 1137 1629 1774 2193 2294 2819 3819 3840 3908 3937 3978 
+	}
+
+	history={
+		owner = IRN
+		add_core_of = IRN
+		buildings = {
+			infrastructure = 4
+		}
+	}
+
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

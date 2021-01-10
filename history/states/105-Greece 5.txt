@@ -1,0 +1,22 @@
+
+state={
+	id=105
+	name="STATE_105"
+	
+	history = {
+		owner = GRE
+		add_core_of = GRE
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+		}
+	}
+	
+	provinces={
+		30 273 376 549 611 700 773 913 1409 1415 1458 1525 1590 1824 1856 1914 2489 2543 2844 3130 3178 3203 3207 3225 3227 3292 3293 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

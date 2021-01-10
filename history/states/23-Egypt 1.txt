@@ -1,0 +1,25 @@
+
+state={
+	id=23
+	name="STATE_23"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			4340 20 
+		}
+
+	}
+
+	provinces={
+		809 1720 1926 1927 1952 2238 2307 2524 2553 2930 2935 3134 4188 4208 4220 4230 4233 4240 4243 4253 4262 4272 4301 4315 4324 4340 8769 8771 8776 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

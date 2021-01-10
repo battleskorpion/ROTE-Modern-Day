@@ -1,0 +1,20 @@
+
+state={
+	id=212
+	name="STATE_212"
+	provinces={
+		775 3145 
+	}
+	
+	history = {
+		owner = GEO
+		add_core_of = GEO
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

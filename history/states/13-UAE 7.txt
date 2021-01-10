@@ -1,0 +1,20 @@
+
+state={
+	id=13
+	name="STATE_13"
+	
+	history = {
+		owner = UAE
+		add_core_of = UAE
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		360 1687 2092 2103 2556 2938 2980 3015 4586 4595 4596 4597 4605 4615 4627 4628 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

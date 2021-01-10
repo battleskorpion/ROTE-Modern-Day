@@ -1,0 +1,22 @@
+
+state={
+	id=44
+	name="STATE_44"
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		1795 2410 2854 3166 3172 3175 3179 8611 8614 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

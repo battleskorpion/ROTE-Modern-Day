@@ -1,0 +1,23 @@
+
+state={
+	id=238
+	name="STATE_238"
+
+	history={
+		owner = ISL
+		add_core_of = IRQ
+		add_core_of = ISL
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		8516 8520 8524 8533 8535 8542 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

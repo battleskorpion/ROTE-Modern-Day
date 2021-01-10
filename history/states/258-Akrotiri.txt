@@ -1,0 +1,23 @@
+
+state={
+	id=258
+	name="STATE_258"
+
+	history={
+		owner = UNZ
+		add_core_of = UNZ
+		add_core_of = CYP
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		8678 8679 
+	}
+	manpower=8000 #very rough estimate
+	buildings_max_level_factor=1.000
+	state_category = town
+}

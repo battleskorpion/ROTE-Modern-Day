@@ -1,0 +1,38 @@
+
+state={
+	id=21
+	name="STATE_21"
+
+	history={
+		owner = ISR
+		add_core_of = ISR
+		add_core_of = PAL
+		buildings = {
+			infrastructure = 4
+
+		}
+		
+		victory_points = {
+			8670 30
+		}
+		victory_points = {
+			8666 20
+		}
+		victory_points = {
+			8657 20
+		}
+		victory_points = {
+			2346 15
+		}
+		victory_points = {
+			8672 20
+		}
+	}
+
+	provinces={
+		1739 1960 2304 2346 3003 4064 4138 8655 8656 8657 8658 8659 8663 8665 8666 8667 8670 8671 8672 8673 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

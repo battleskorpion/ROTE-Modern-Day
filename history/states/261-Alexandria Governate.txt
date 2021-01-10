@@ -1,0 +1,22 @@
+
+state={
+	id=261
+	name="STATE_261"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 10
+
+		}
+
+	}
+
+	provinces={
+		8767 8773 8774 8775 8777 8778 8779 8780 8781 8782 8784 8785 8786 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category = megalopolis
+}

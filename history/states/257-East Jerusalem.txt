@@ -1,0 +1,21 @@
+state={
+	id=257
+	name="STATE_257"
+
+	history={
+		owner = PAL
+		add_core_of = ISR
+		add_core_of = PAL
+		buildings = {
+			infrastructure = 8
+		}
+
+	}
+
+	provinces={
+		8660 
+	}
+	manpower=10
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

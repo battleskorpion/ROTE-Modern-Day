@@ -1,0 +1,39 @@
+
+state={
+	id=17
+	name="STATE_17"
+
+	history={
+		owner = PAL
+		add_core_of = PAL
+		buildings = {
+			infrastructure = 6
+
+		}
+		victory_points = {
+			8638 20		#rafah
+		}
+		victory_points = {
+			8640 20		#khan yunis
+		}
+		victory_points = {
+			8645 5		#deir al balah
+		}
+		victory_points = {
+			8649 10		#Nuseirat / Bureji	# refugee camps
+		}
+		victory_points = {
+			8651 30		#Gaza
+		}
+		victory_points = {
+			8652 15		#jabalia
+		}
+	}
+
+	provinces={
+		1922 2008 8636 8638 8639 8640 8642 8645 8646 8648 8649 8650 8651 8652 8653 
+	}
+	manpower=2100000 			# estimates for 2020 put pop growth around 2.9 percent, multiple sources say. So this is best guess
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

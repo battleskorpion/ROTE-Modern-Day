@@ -1,0 +1,20 @@
+
+state={
+	id=30
+	name="STATE_30"
+	
+	history = {
+		owner = OMA
+		add_core_of = OMA
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		22 361 670 844 926 983 1405 1704 3028 4941 4945 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

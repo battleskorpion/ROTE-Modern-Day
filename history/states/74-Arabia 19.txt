@@ -1,0 +1,20 @@
+
+state={
+	id=74
+	name="STATE_74"
+	
+	history = {
+		owner = SAU
+		add_core_of = SAU
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		45 285 533 589 960 1770 4561 4593 4678 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

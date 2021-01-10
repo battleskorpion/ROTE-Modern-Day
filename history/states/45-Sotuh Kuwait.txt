@@ -1,0 +1,20 @@
+
+state={
+	id=45
+	name="STATE_45"
+	
+	history = {
+		owner = KUW
+		add_core_of = KUW
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	
+	provinces={
+		854 1818 4381 4396 4400 
+	}
+	manpower=10
+	state_category = rural
+	buildings_max_level_factor=1.000
+}
