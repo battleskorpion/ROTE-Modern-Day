@@ -42,4 +42,4 @@ tags={
 }
 name="Republics Of The East(Dev)"
 supported_version="1.9.*"
-path="C:/Users/Skorpion/Documents/Paradox Interactive/Hearts of Iron IV/mod/ROTE-Modern-Day"
+path="Paradox Interactive/Hearts of Iron IV/mod/ROTE-Modern-Day"

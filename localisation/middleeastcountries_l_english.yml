@@ -72,6 +72,21 @@ ASY_fascism:0 "Assyrian Empire"
  BHR_neutrality_ADJ: "Bahraini"
  BHR_communism_ADJ: "Bahraini"
 
+ IRN_fascism:0 "Iran"
+ IRN_fascism_DEF:0 "Islamic Republic of Iran"
+ IRN_democratic:0 "Iranian Republic"
+ IRN_democratic_DEF:0 "Republic of Iran"
+ IRN_neutrality:1 "Iran"
+ IRN_neutrality_DEF:1 "Iran"
+ IRN_communism:0 "Communist Party of Iran (CPI)"
+ IRN_communism_DEF:0 "(CPI)"
+ IRN_fascism_ADJ:0 "Iran"
+ IRN_democratic_ADJ:0 "Iran"
+ IRN_neutrality_ADJ:0 "Iran"
+ IRN_communism_ADJ:0 "Iran"
+ IRN:0 "Iran"
+ IRN_DEF:0 "Iran"
+ IRN_ADJ:0 "Iran"
  #
  
  saudia2_neutrality:1 "Saudian Sultanate"
@@ -80,3 +95,5 @@ ASY_fascism:0 "Assyrian Empire"
  saudia2:0 "Saudian Sultanate"
  saudia2_DEF:0 "Saudian Sultanate"
  saudia2_ADJ:0 "Saudian"
+
+#
