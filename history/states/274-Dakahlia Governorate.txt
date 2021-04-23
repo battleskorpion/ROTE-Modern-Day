@@ -5,6 +5,15 @@ state={
 	provinces={
 		1952 2111 2411 2523 2925 4156 4176 4196 8772 8815 8818 8819 
 	}
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
 	manpower=10
 	buildings_max_level_factor=1.000
 	state_category = rural

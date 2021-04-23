@@ -5,6 +5,15 @@ state={
 	provinces={
 		1229 3065 4273 
 	}
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
 	manpower=10
 	buildings_max_level_factor=1.000
 	
