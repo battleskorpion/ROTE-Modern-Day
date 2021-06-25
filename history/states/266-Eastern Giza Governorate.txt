@@ -2,9 +2,7 @@
 state={
 	id=266
 	name="STATE_266"
-	provinces={
-		1482 1602 1962 4362 4369 8740 
-	}
+
 	history={
 		owner = EGY
 		add_core_of = EGY
@@ -14,7 +12,11 @@ state={
 		}
 
 	}
+
+	provinces={
+		1482 1602 1962 4362 4369 8740 8822 
+	}
 	manpower=10
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }
