@@ -1,6 +1,6 @@
 ﻿capital = 291
 
-oob = "AIQ_1936"
+oob = "AIQ_2020"
 
 # Starting tech
 set_technology = {

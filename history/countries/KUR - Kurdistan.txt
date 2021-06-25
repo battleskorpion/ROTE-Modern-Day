@@ -1,6 +1,6 @@
 ﻿capital = 352
 
-oob = "KUR_1936"
+oob = "KUR_2020"
 
 # Starting tech
 set_technology = {

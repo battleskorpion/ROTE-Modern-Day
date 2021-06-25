@@ -1,5 +1,5 @@
 ﻿capital = 448
-oob = "LBA_1936"
+oob = "LBA_2020"
 # Starting tech
 set_technology = {
 infantry_weapons = 1

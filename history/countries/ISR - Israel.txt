@@ -1,6 +1,6 @@
 ﻿capital = 256
 
-oob = "ISR_1936"
+oob = "ISR_2020"
 
 
 # Starting tech

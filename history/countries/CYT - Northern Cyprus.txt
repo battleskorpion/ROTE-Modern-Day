@@ -1,6 +1,6 @@
 ﻿capital = 183
 
-oob = "CYT_1936"
+oob = "CYT_2020"
 
 #Starting tech
 set_technology = {

@@ -1,6 +1,6 @@
 ﻿#capital = 806
 
-oob = "PAL_1936"
+oob = "PAL_2020"
 
 
 # Starting tech

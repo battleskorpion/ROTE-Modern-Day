@@ -1,6 +1,6 @@
 ﻿capital = 765
 
-oob = "QTR_1936"
+oob = "QTR_2020"
 
 # Starting tech
 set_technology = {

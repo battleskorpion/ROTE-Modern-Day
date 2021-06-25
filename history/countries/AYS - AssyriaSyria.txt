@@ -1,6 +1,6 @@
 ﻿#capital = 800
 
-#oob = "ASY_1936"
+#oob = "ASY_2020"
 
 # Starting tech
 set_technology = {

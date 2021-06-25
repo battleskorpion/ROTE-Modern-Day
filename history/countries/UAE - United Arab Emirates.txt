@@ -1,6 +1,6 @@
 ﻿capital = 658
 
-oob = "UAE_1936"
+oob = "UAE_2020"
 
 # Starting tech
 set_technology = {

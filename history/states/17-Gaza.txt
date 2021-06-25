@@ -31,7 +31,7 @@ state={
 	}
 
 	provinces={
-		1922 2008 8636 8638 8639 8640 8642 8645 8646 8648 8649 8650 8651 8652 8653 
+		2008 8636 8638 8639 8640 8642 8645 8646 8648 8649 8650 8651 8652 8653 
 	}
 	manpower=2100000 			# estimates for 2020 put pop growth around 2.9 percent, multiple sources say. So this is best guess
 	buildings_max_level_factor=1.000
