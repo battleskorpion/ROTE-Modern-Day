@@ -11,6 +11,19 @@
     VICTORY_POINTS_8657:0 "Ashdod" 
     VICTORY_POINTS_2346:0 "Ashkelon" 
     VICTORY_POINTS_8672:0 "Netanya" 
-    VICTORY_POINTS_8722:0 "Nicosia" 
-    VICTORY_POINTS_8725:0 "North Nicosia" 
     
+    ### CYPRUS ###
+    VICTORY_POINTS_8722:0 "Nicosia" 
+    VICTORY_POINTS_8725:0 "North Nicosia"
+
+    ### EGYPT ###
+    VICTORY_POINTS_8758: "Giza"
+    VICTORY_POINTS_8746: "Helwan"
+    VICTORY_POINTS_8755: "Cairo"
+    VICTORY_POINTS_2232: "Port Said" 
+    VICTORY_POINTS_3065: "El-Qantara el-Sharqîya" 
+    VICTORY_POINTS_4230: "El-Qantara el-Gharbîya" 
+    VICTORY_POINTS_8782: "Alexandria" 
+    VICTORY_POINTS_8779: "Agamy" 
+    VICTORY_POINTS_8774: "New Borg El-Arab City" 
+    VICTORY_POINTS_2527: "Marsa Matruh" 
