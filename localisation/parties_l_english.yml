@@ -22,8 +22,8 @@
  stalinism_desc:0 "Identifying as a form of government applying and developing Marxist-Leninist policies, Stalinism emphasizes rapid industrialization and collectivization as well as the need for a strong, authorative socialist state to purge any counter-revolutionary elements."
  anti_revisionism:0 "Anti-Revisionism"
  anti_revisionism_desc:0 "A reaction to the many ideologies claiming to be successors to Marxism, Anti-Revisionism advocates retaining key elements of original revolutionary theory. Mainly opposing incorporation of capitalist economic elements into socialist states, the ideology is defined as much by what it isn't as what it is."
- anarchist_communism:0 "Anarchist Communism"
- anarchist_communism_desc:0 "An ideology embracing the idea of communism as a stateless society, Anarchist Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
+ anarcho_communism:0 "Anarcho-Communism"
+ anarcho_communism_desc:0 "An ideology embracing the idea of communism as a stateless society, Anarcho-Communism eschews the idea of a transitionary socialist state and favors a society based on voluntary associations and mutual aid."
  nazism:0 "Nazism"
  nazism_desc:0 "Rooted in extreme nationalism, National Socialism is driven by ideas of Germanic supremacy. It promotes aggressive expansionism and a totalitarian state where the people are united under a leader with absolute power, the Führer."
  fascism_ideology:0 "Fascism"
@@ -45,8 +45,16 @@
  centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
  anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
- 
-#(from base game)
+ anarcho_syndicalism:0 "Anarcho-Syndicalism"
+ anarcho_syndicalism_desc:0 "Anarcho-Syndicalism is a form of Anarchism that focuses mainly on abolishing the modern wage system, regarding it as a form of slavery of the common people. This is the type of government used by Catalonian rebels during the Spanish Civil War."
+ libertarian_socalism:0 "Libertarian Socialism"
+ libertarian_socialism_desc:0 "Libertarian Socialism, also known as Anarcho-Socialism, is a form of Anarchism that focuses mainly on maintaining the status quo as well as emphasizing self-management within worker communities and against the state."
+ baathism:0 "Ba'athism"
+ baathism_desc:0 "Ba'athism is a form of Arab Nationalism that is derived mainly from the teachings of Pan-Arab writers Michel Aflaq and Zaki al-Arsuzi. It is observed mainly by leaders such as Saddam Hussein and Bashar al-Assad, both Arab Nationalist leaders. Ba'athism focuses mainly on the 'enlightenment' of Arab society and reforming its culture, values, and society. It also advocates for a single-party state, rejecting political pluralism in favor of a Pan-Arab one-party state."
+ nasserism:0 "Nasserism"
+ nasserism_desc:0 "Nasserism is a form of Arab Nationalism that is derived mainly from the teachings of former President Gamal Abdel Nasser of Egypt. It focuses mainly on Pan-Arabism, anti-imperialism, and international neutrality, making it quite different from more 'extremist' sects such as Ba'athism which took hold in the heartland of Arabia."
+
+ #(from base game)
 #Greece
  GRE_neutrality_party:0 "Metaxá"
  GRE_neutrality_party_long:0 "Kathestós Metaxá"

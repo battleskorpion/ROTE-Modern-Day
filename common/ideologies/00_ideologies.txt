@@ -1,4 +1,118 @@
 ideologies = {
+
+	anarchist = { # New ideology
+
+		types = {
+
+			anarcho_communism = {
+			}
+
+			anarcho_syndicalism = {
+			}
+
+			libertarian_socialism = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_ANARCHIST_1" # This doesn't matter - anarchists can't make factions
+		}
+
+		color = { 252 46 2 } # Bright red, basically. Should be brighter than Communism
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no # An anarchist government can't keep hold on another anarchist government
+			can_lower_tension = no # Other countries are scared of anarchy
+			can_only_justify_war_on_threat_country = no 
+			can_guarantee_other_ideologies = no # See note about governments not functioning with other governments
+		}
+
+		can_host_government_in_exile = no 
+
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 1.0
+
+		modifiers = {
+			generate_wargoal_tension = 0
+			join_faction_tension = 0
+			lend_lease_tension = 1
+			send_volunteers_tension = 1
+			guarantee_tension = 0
+			take_states_cost_factor = 1
+			annex_cost_factor = 1
+			justify_war_goal_when_in_major_war_time = 0.5
+			drift_defence_factor = -0.5
+			puppet_cost_factor = -1
+		}
+
+		can_be_boosted = yes
+		can_collaborate = yes
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0 # This doesn't matter - anarchists can't make factions
+		}
+
+		ai_democratic = yes # Uses edited Democratic AI - seems weird, but the Democratic AI works fairly well for Anarchism based on focus on liberation and installation of new governments
+	}
+
+	arab_nationalist = {
+
+		types = {
+
+			baathism = {
+			}
+
+			nasserism = {
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_ARAB_NATIONALIST_1"
+		}
+
+		color = { 0 48 24 } # Shade of green used in the Pan-Arab flag - I think it works well for Arab Nationalism
+
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = no # Arab Nationalism depends a lot on Pan-Arabism - having fights between two Arab Nationalist countries doesn't make much sense
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+
+		can_host_government_in_exile = yes
+
+		war_impact_on_world_tension = 0.5 # Moderate value
+		faction_impact_on_world_tension = 0.5 # Moderate value
+
+		modifiers = {
+			generate_wargoal_tension = 0
+			join_faction_tension = 0
+			lend_lease_tension = 0
+			send_volunteers_tension = 0.2
+			guarantee_tension = 0
+			take_states_cost_factor = 0
+			annex_cost_factor = 0
+			justify_war_goal_when_in_major_war_time = 0.5
+			drift_defence_factor = 0.5 # Pan-Arabism is often times radical - they wouldn't give up their ideology very easily
+			puppet_cost_factor = 0
+		}
+
+		can_be_boosted = yes
+		can_collaborate = yes
+
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50
+		}
+		ai_fascist = yes # Uses the Fascist AI - focuses on conquering and integrating territory
+	}
 	
 	democratic = {
 	
@@ -75,9 +189,6 @@ ideologies = {
 			}
 			
 			anti_revisionism = {
-			}
-			
-			anarchist_communism = {
 			}
 		}
 		
@@ -177,10 +288,6 @@ ideologies = {
 			}
 			
 			oligarchism  = {
-			}
-
-			anarchism = {
-				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
 			}
 			
 			moderatism = {
