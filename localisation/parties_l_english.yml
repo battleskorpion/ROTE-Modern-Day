@@ -1,7 +1,9 @@
 ﻿l_english:
  anarchism:0 "Anarchy"
  anarchism_noun:0 "Anarchy"
- arab_nationalism:0 "Arab State"
+ anarchism_desc:0 "Anarchic Regime"
+ arab_nationalism:0 "Arab Nationalism"
+ arab_nationalism_noun:0 "Arab"
  arab_nationalism_desc:0 "Arab Regime"
  communism:0 "Oligarchic"
  communism_noun:0 "Oligarchy"
