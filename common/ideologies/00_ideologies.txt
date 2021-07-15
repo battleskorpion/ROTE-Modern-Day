@@ -1,6 +1,6 @@
 ideologies = {
 
-	anarchist = { # New ideology
+	anarchism = { # New ideology
 
 		types = {
 
@@ -15,7 +15,7 @@ ideologies = {
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_ANARCHIST_1" # This doesn't matter - anarchists can't make factions
+			"FACTION_NAME_ANARCHISM_1" # This doesn't matter - anarchists can't make factions
 		}
 
 		color = { 252 46 2 } # Bright red, basically. Should be brighter than Communism
@@ -59,7 +59,7 @@ ideologies = {
 		ai_democratic = yes # Uses edited Democratic AI - seems weird, but the Democratic AI works fairly well for Anarchism based on focus on liberation and installation of new governments
 	}
 
-	arab_nationalist = {
+	arab_nationalism = {
 
 		types = {
 
@@ -71,7 +71,7 @@ ideologies = {
 		}
 
 		dynamic_faction_names = {
-			"FACTION_NAME_ARAB_NATIONALIST_1"
+			"FACTION_NAME_ARAB_NATIONALISM_1"
 		}
 
 		color = { 0 48 24 } # Shade of green used in the Pan-Arab flag - I think it works well for Arab Nationalism

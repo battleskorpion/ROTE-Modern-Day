@@ -1,4 +1,8 @@
 ﻿l_english:
+ anarchism:0 "Anarchy"
+ anarchism_noun:0 "Anarchy"
+ arab_nationalism:0 "Arab State"
+ arab_nationalism_desc:0 "Arab Regime"
  communism:0 "Oligarchic"
  communism_noun:0 "Oligarchy"
  democratic:0 "Democratic"
@@ -43,8 +47,6 @@
  moderatism_desc:1 "Moderatism is a form of government which avoids the extremes of left and right by taking a moderate position or course of action."
  centrism:1 "Centrism"
  centrism_desc:1 "Centrism is a form of government which wants to achieve common sense solutions that appropriately address current and future needs, that support the public trust and serve the common good with consideration of risk and capacity in context of these needs."
- anarchism:0 "Anarchism"
- anarchism_desc:0 "Anarchism is the rejection of authority itself, promoting the division of society into self-managing and self-governing collectives instead of a singular, centralized state."
  anarcho_syndicalism:0 "Anarcho-Syndicalism"
  anarcho_syndicalism_desc:0 "Anarcho-Syndicalism is a form of Anarchism that focuses mainly on abolishing the modern wage system, regarding it as a form of slavery of the common people. This is the type of government used by Catalonian rebels during the Spanish Civil War."
  libertarian_socalism:0 "Libertarian Socialism"
