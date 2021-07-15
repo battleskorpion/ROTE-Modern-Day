@@ -94,4 +94,11 @@
  #Saudi Arabia
  saudia2_neutrality_party:0 "Saud Dynasty"
  #
- 
+
+#Egypt
+EGY_democratic_party:0 "FNP"
+EGY_democratic_party_long:0 "Future of the Nation Party"
+EGY_arab_nationalism_party:0 "HT"
+EGY_arab_nationalism_party_long:0 "Hizb ut-Tahrir"
+EGY_communism_party:0 "ECP"
+EGY_communism_party_long:0 "Egyptian Communist Party"
