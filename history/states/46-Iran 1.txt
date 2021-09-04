@@ -2,19 +2,21 @@
 state={
 	id=46
 	name="STATE_46"
-	
-	history = {
+
+	history={
 		owner = IRN
 		add_core_of = IRN
 		buildings = {
 			infrastructure = 4
+
 		}
+
 	}
-	
+
 	provinces={
-		684 693 1464 1632 1865 2061 2116 2183 2744 2753 2759 4221 4224 4244 4304 4307 4309 
+		684 693 1464 1632 1865 2061 2116 2183 2744 2753 2759 4221 4224 4244 4304 4307 4309 4328 
 	}
 	manpower=10
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

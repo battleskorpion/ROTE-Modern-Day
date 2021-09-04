@@ -298,12 +298,12 @@ BHR = {
 AYS = {
 	color = rgb { 66 167 234 }
 	color_ui = rgb { 66 167 234 }
-	}
-SUD	= {
-	color = rgb { 0 0 0 }
-	color_ui = rgb { 0 0 0 }
-	}
+}
+#SUD	= {
+#	color = rgb { 0 0 0 }
+#	color_ui = rgb { 0 0 0 }
+#}
 KUW	= {
 	color = rgb { 102 51 0 }
 	color_ui = rgb { 102 51 0 }
-	}
+}
