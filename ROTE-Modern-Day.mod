@@ -42,3 +42,4 @@ tags={
 name="Republics Of The East"
 supported_version="1.10.*"
 path="C:/Users/daria/Documents/Paradox Interactive/Hearts of Iron IV/mod/ROTE-Modern-Day"
+remote_file_id="2593728043"
