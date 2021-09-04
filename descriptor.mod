@@ -40,6 +40,6 @@ tags={
 	"Map"
 	"Utilities"
 }
-name="Republics Of The East(Dev)"
-supported_version="1.9.*"
+name="Republics Of The East"
+supported_version="1.10.*"
 path="Paradox Interactive/Hearts of Iron IV/mod/ROTE-Modern-Day"
