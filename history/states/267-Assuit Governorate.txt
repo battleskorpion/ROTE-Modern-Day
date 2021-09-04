@@ -1,7 +1,7 @@
 
 state={
 	id=267
-	name="STATE_267"
+	name="STATE_267" #asyut
 	provinces={
 		736 1723 1965 2653 4434 4439 4444 4455 
 	}
@@ -14,7 +14,7 @@ state={
 		}
 
 	}
-	manpower=10
+	manpower=4587577 #2019
 	buildings_max_level_factor=1.000
 	state_category = rural
 }

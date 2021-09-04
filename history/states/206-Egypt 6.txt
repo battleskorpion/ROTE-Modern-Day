@@ -1,7 +1,7 @@
 
 state={
 	id=206
-	name="STATE_206"
+	name="STATE_206" #beni suef
 
 	history={
 		owner = EGY
@@ -16,7 +16,7 @@ state={
 	provinces={
 		933 2229 2816 4383 4386 4392 4397 8729 8730 8731 8734 
 	}
-	manpower=10
+	manpower=3288219 #2019
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
