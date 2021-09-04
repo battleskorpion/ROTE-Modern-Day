@@ -397,18 +397,18 @@ leader_traits = {
 #ai_focus_naval_air_factor
 #ai_focus_aviation_factor 
 	
-	dislikes_germany = {
-		random = no
-		ai_strategy = {
-			type = antagonize
-			id = "GER"			
-			value = 200
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	#dislikes_germany = {
+	#	random = no
+	#	ai_strategy = {
+	#		type = antagonize
+	#		id = "GER"			
+	#		value = 200
+	#	}
+	#	
+	#	ai_will_do = {
+	#		factor = 1
+	#	}
+	#}
 	
 	tenacious_defender = {
 		random = no
@@ -1133,11 +1133,11 @@ leader_traits = {
 	militant_socialist = {
 		random = no
 		war_support_factor = 0.05
-		targeted_modifier = {
-			tag = SOV
-			attack_bonus_against = 0.1
-			defense_bonus_against = 0.1
-		}
+		#targeted_modifier = {
+		#	tag = SOV
+		#	attack_bonus_against = 0.1
+		#	defense_bonus_against = 0.1
+		#}
 	}
 
 	constitutional_monarch_minor = { #Dom Duarte Nuno, King of Portugal
@@ -1201,11 +1201,11 @@ leader_traits = {
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				tag = HUN
-				not = { has_completed_focus = HUN_invite_the_habsburg_prince }
-				factor = 0
-			}
+			#modifier = {
+			#	tag = HUN
+			#	not = { has_completed_focus = HUN_invite_the_habsburg_prince }
+			#	factor = 0
+			#}
 		}
 	}
 	
