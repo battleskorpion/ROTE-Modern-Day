@@ -12,6 +12,10 @@ state={
 			infrastructure = 4
 		}
 	}
+
+	resources = {
+		oil = 97
+	} 
 	
 	provinces={
 		45 285 533 589 960 1770 4561 4593 4678 

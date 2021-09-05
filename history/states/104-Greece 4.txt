@@ -14,6 +14,10 @@ state={
 			industrial_complex = 1
 		}
 	}
+
+	resources = {
+		oil = 1
+	} 
 	
 	provinces={
 		165 1217 1224 1300 1539 2490 2754 2765 2838 2903 3273 3317 
