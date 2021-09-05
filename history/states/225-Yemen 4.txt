@@ -10,6 +10,8 @@ state={
 		owner = YEM
 		add_core_of = YEM
 		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
 			infrastructure = 4
 		}
 	}

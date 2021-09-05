@@ -13,6 +13,8 @@ state={
 		add_claim_by = KUR
 		add_claim_by = ISL
 		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
 			infrastructure = 4
 
 		}

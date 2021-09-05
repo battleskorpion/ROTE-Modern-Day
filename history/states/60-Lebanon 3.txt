@@ -7,6 +7,8 @@ state={
 		owner = LEB
 		add_core_of = LEB
 		buildings = {
+			arms_factory = 1
+			industrial_complex = 1
 			infrastructure = 4
 		}
 	}
