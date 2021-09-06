@@ -16,7 +16,7 @@ state={
 	}
 
 	resources = {
-		oil = 20 
+		oil = 20 #16/most at coast
 	} 
 
 	provinces={
