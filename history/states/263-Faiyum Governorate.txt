@@ -16,11 +16,6 @@ state={
 		}
 
 	}
-
-
-	resources = {
-		oil = 3
-	} 
 	manpower=3747942
 	buildings_max_level_factor=1.000
 	state_category = large_city

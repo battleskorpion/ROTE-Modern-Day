@@ -14,10 +14,6 @@ state={
 			infrastructure = 4
 		}
 	}
-
-	resources = {
-		oil = 2
-	}
 	
 	manpower=10
 	state_category = rural
