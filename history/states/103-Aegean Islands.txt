@@ -1,7 +1,7 @@
 
 state={
-	id=107
-	name="STATE_107"
+	id=103
+	name="STATE_103"
 
 	history={
 		owner = GRE
@@ -18,7 +18,7 @@ state={
 	}
 
 	provinces={
-		95 125 847 872 1237 1362 1432 1548 1746 2051 2424 2640 2900 4993 8606 8607 8609 
+		1180 2281 2540 3311 3318 3332 
 	}
 	manpower=10
 	buildings_max_level_factor=1.000

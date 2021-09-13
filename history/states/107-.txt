@@ -1,24 +1,23 @@
 
 state={
-	id=103
-	name="STATE_103"
-	
-	history = {
+	id=107
+	name="Eastern Macedonia and Thrace"
+
+	history={
 		owner = GRE
 		add_core_of = GRE
 		buildings = {
-			arms_factory = 1
 			industrial_complex = 1
 			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
+
 		}
+
 	}
 
 	provinces={
-		1180 2281 2540 3311 3318 3332 
+		95 125 872 1237 1432 1548 1746 2051 2900 4993 8609 
 	}
 	manpower=10
-	state_category = rural
 	buildings_max_level_factor=1.000
+	state_category=rural
 }
