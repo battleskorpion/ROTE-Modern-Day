@@ -20,7 +20,7 @@ state={
 		3366 3045 3345 1593 2403
 	}
 	manpower=3812330	
-	state_category = rural
+	state_category = large_city
 	buildings_max_level_factor=1.000
 }
 
