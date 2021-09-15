@@ -1,7 +1,7 @@
 
 state={
-	id=Ionian Islands
-	name="STATE_209"
+	id=209
+	name="Ionian Islands"
 	provinces={
 		3271 3285 5000 5003 5005 5007 
 	}
