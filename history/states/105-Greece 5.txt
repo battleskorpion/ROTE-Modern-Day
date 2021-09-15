@@ -1,7 +1,7 @@
 
 state={
 	id=105
-	name="STATE_105"
+	name="Epirus"
 
 	history={
 		owner = GRE
@@ -10,17 +10,16 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
+
 
 		}
 
 	}
 
 	provinces={
-		30 273 376 611 700 773 913 1409 1415 1458 1525 1590 1824 1856 2489 2543 2844 3130 3203 3207 3225 3227 3292 3293 
+		165 913 1224 1824 2490 2543 2754 3227 3273 
 	}
-	manpower=10
+	manpower=336650
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

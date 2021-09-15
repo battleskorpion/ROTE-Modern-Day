@@ -1,7 +1,7 @@
 
 state={
-	id=106
-	name="STATE_106"
+	id=282
+	name="Thessaly"
 
 	history={
 		owner = GRE
@@ -10,17 +10,15 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
 
 		}
 
 	}
 
+
 	provinces={
-		397 453 549 847 849 1177 1362 1914 2424 2640 3178 3212 3222 3237 4998 8603 8606 8607 
+		30 376 773 1409 1415 1458 1590 1856 2489 2844 3130 3292 3293 
 	}
-	manpower=10
+	manpower=730730
 	buildings_max_level_factor=1.000
-	state_category=rural
 }

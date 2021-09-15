@@ -1,7 +1,10 @@
 
 state={
-	id=103
-	name="Aegean Islands"
+	id=104
+	name="Western Greece"
+	resources={
+		oil=1.000
+	}
 
 	history={
 		owner = GRE
@@ -16,9 +19,9 @@ state={
 	}
 
 	provinces={
-		1180 2281 2540 3311 3318 3332 
+		1217 1300 1539 2765 2838 2903 3317 
 	}
-	manpower=197810
+	manpower=680190
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

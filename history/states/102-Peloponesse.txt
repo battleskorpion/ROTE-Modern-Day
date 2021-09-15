@@ -1,7 +1,7 @@
 
 state={
 	id=102
-	name="STATE_102"
+	name="Peloponnese"
 
 	history={
 		owner = GRE
@@ -10,8 +10,6 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 1
 
 		}
 
@@ -25,7 +23,7 @@ state={
 	provinces={
 		88 494 887 1430 1483 1757 1782 2089 2171 2376 2664 2899 3121 3355 3365 3376 3384 3399 5017 
 	}
-	manpower=10
+	manpower=581980
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 }

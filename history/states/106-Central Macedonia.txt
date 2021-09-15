@@ -1,7 +1,7 @@
 
 state={
-	id=103
-	name="Aegean Islands"
+	id=106
+	name="Central Macedonia"
 
 	history={
 		owner = GRE
@@ -16,9 +16,9 @@ state={
 	}
 
 	provinces={
-		1180 2281 2540 3311 3318 3332 
+		397 453 549 847 849 1177 1362 1914 2424 2640 3178 3212 3222 3237 4998 8603 8606 8607 
 	}
-	manpower=197810
+	manpower=1874590
 	buildings_max_level_factor=1.000
 	state_category=rural
 }
