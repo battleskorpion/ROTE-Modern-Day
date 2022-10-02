@@ -9,7 +9,7 @@ state={
 		buildings = {
 			arms_factory = 1
 			industrial_complex = 1
-			infrastructure = 6
+			infrastructure = 5	#infrastructure = 6 bad level now
 			air_base = 7
 		}
 

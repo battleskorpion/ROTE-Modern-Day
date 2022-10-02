@@ -88,8 +88,8 @@ create_country_leader = {
 	ideology = despotism
 	traits = {
 		conservative_grandee
-		anti_fascist_leader
-		abs_monarch
+		#anti_fascist_leader	# Invalid country leader trait?
+		#abs_monarch		# Invalid country leader trait? 
 		#
 	}
 }
