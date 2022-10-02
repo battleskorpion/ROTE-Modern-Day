@@ -1,6 +1,7 @@
 sub_units = {
 
 	light_sp_anti_air_brigade = {
+		abbreviation = "LAA"
 		sprite = light_armor
 		map_icon_category = armored
 		priority = 301
@@ -19,10 +20,10 @@ sub_units = {
 			category_army
 		}
 
-		combat_width = 1
+		combat_width = 2
 
 		need = {
-			light_tank_aa_equipment = 15
+			light_tank_aa_chassis = 30
 		}
 		manpower = 250
 		max_organisation = 0
@@ -33,24 +34,22 @@ sub_units = {
 		
 		supply_consumption = 0.1
 
-		#Tanks are awesome
-		soft_attack = 0.5
 
-		suppression = 2
+		suppression = 0.75
 
 		forest = {
-			attack = -0.2
+		    attack = -0.2
 			movement = -0.4
 		}
 		mountain = 	{
-			attack = -0.1
+		    attack = -0.1
 		}
 		jungle = {
-			attack = -0.3
+		    attack = -0.3
 			movement = -0.4
 		}
 		marsh = {
-			attack = -0.1 
+		    attack = -0.1 
 			movement = -0.1
 		}
 		urban = {
@@ -67,6 +66,7 @@ sub_units = {
 	}
 	
 	medium_sp_anti_air_brigade = {
+		abbreviation = "MAA"
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 301
@@ -85,10 +85,10 @@ sub_units = {
 			category_army
 		}
 
-		combat_width = 1
+		combat_width = 2
 
 		need = {
-			medium_tank_aa_equipment = 12
+			medium_tank_aa_chassis = 24
 		}
 		manpower = 500
 		max_organisation = 0
@@ -98,27 +98,25 @@ sub_units = {
 		weight = 1.25
 		supply_consumption = 0.1
 
-		#Tanks are awesome
-		soft_attack = 0.5
 
-		suppression = 2
+		suppression = 0.8
 
 		forest = {
-			attack = -0.3
+		    attack = -0.3
 			movement = -0.4
 		}
 		hills = 	{
-			attack = -0.1
+		    attack = -0.1
 		}
 		mountain = 	{
-			attack = -0.2
+		    attack = -0.2
 		}
 		jungle = {
-			attack = -0.4
+		    attack = -0.4
 			movement = -0.4
 		}
 		marsh = {
-			attack = -0.1 
+		    attack = -0.1 
 			movement = -0.1
 		}
 		urban = {
@@ -135,6 +133,7 @@ sub_units = {
 	}
 	
 	heavy_sp_anti_air_brigade = {
+		abbreviation = "HAA"
 		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 301
@@ -154,10 +153,10 @@ sub_units = {
 			category_army
 		}
 
-		combat_width = 1
+		combat_width = 2
 
 		need = {
-			heavy_tank_aa_equipment = 8
+			heavy_tank_aa_chassis = 16
 		}
 		manpower = 500
 		max_organisation = 0
@@ -166,27 +165,25 @@ sub_units = {
 		weight = 1.5
 		supply_consumption = 0.1
 
-		#Tanks are awesome
-		soft_attack = 0.5
 
-		suppression = 2
+		suppression = 0.75
 
 		forest = {
-			attack = -0.40
+		    attack = -0.40
 			movement = -0.40
 		}
 		hills = {
-			attack = -0.20
+		    attack = -0.20
 		}
 		mountain = 	{
-			attack = -0.3
+		    attack = -0.3
 		}
 		jungle = {
-			attack = -0.6
+		    attack = -0.6
 			movement = -0.4
 		}
 		marsh = {
-			attack = -0.4 
+		    attack = -0.4 
 			movement = -0.2
 		}
 		urban = {
@@ -203,6 +200,7 @@ sub_units = {
 	}
 	
 	super_heavy_sp_anti_air_brigade = {
+		abbreviation = "SAA"
 		sprite = heavy_armor
 		map_icon_category = armored
 		priority = 301
@@ -220,10 +218,10 @@ sub_units = {
 			anti_air
 		}
 
-		combat_width = 1
+		combat_width = 2
 
 		need = {
-			super_heavy_tank_aa_equipment = 4
+			super_heavy_tank_aa_chassis = 8
 		}
 		manpower = 500
 		max_organisation = 0
@@ -233,27 +231,25 @@ sub_units = {
 		weight = 1.75
 		supply_consumption = 0.1
 
-		#Tanks are awesome
-		soft_attack = 0.5
 
-		suppression = 2
+		suppression = 0.75
 
 		forest = {
-			attack = -0.5
+		    attack = -0.5
 			movement = -0.4
 		}
 		hills = {
-			attack = -0.3
+		    attack = -0.3
 		}
 		mountain = 	{
-			attack = -0.4
+		    attack = -0.4
 		}
 		jungle = {
-			attack = -0.7
+		    attack = -0.7
 			movement = -0.4
 		}
 		marsh = {
-			attack = -0.5 
+		    attack = -0.5 
 			movement = -0.2
 		}
 		urban = {
@@ -270,6 +266,7 @@ sub_units = {
 	}
 	
 	modern_sp_anti_air_brigade = {
+		abbreviation = "OAA"
 		sprite = medium_armor
 		map_icon_category = armored
 		priority = 301
@@ -288,10 +285,10 @@ sub_units = {
 			category_army
 		}
 
-		combat_width = 1
+		combat_width = 2
 
 		need = {
-			modern_tank_aa_equipment = 12
+			modern_tank_aa_chassis = 24
 		}
 		manpower = 500
 		max_organisation = 0
@@ -301,27 +298,24 @@ sub_units = {
 		weight = 1.5
 		supply_consumption = 0.1
 
-		#Tanks are awesome
-		soft_attack = 0.5
-
 		suppression = 2
 
 		forest = {
-			attack = -0.3
+		    attack = -0.3
 			movement = -0.4
 		}
 		hills = 	{
-			attack = -0.1
+		    attack = -0.1
 		}
 		mountain = 	{
-			attack = -0.2
+		    attack = -0.2
 		}
 		jungle = {
-			attack = -0.4
+		    attack = -0.4
 			movement = -0.4
 		}
 		marsh = {
-			attack = -0.1 
+		    attack = -0.1 
 			movement = -0.1
 		}
 		urban = {
@@ -336,4 +330,7 @@ sub_units = {
 			attack = -0.7
 		}
 	}
+
+
+	
 }
