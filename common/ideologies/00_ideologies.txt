@@ -1,118 +1,4 @@
 ideologies = {
-
-	anarchism = { # New ideology
-
-		types = {
-
-			anarcho_communism = {
-			}
-
-			anarcho_syndicalism = {
-			}
-
-			libertarian_socialism = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_ANARCHISM_1" # This doesn't matter - anarchists can't make factions
-		}
-
-		color = { 252 46 2 } # Bright red, basically. Should be brighter than Communism
-
-		rules = {
-			can_create_collaboration_government = yes
-			can_declare_war_on_same_ideology = yes
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = no # An anarchist government can't keep hold on another anarchist government
-			can_lower_tension = no # Other countries are scared of anarchy
-			can_only_justify_war_on_threat_country = no 
-			can_guarantee_other_ideologies = no # See note about governments not functioning with other governments
-		}
-
-		can_host_government_in_exile = no 
-
-		war_impact_on_world_tension = 1.0
-		faction_impact_on_world_tension = 1.0
-
-		modifiers = {
-			generate_wargoal_tension = 0
-			join_faction_tension = 0
-			lend_lease_tension = 1
-			send_volunteers_tension = 1
-			guarantee_tension = 0
-			take_states_cost_factor = 1
-			annex_cost_factor = 1
-			justify_war_goal_when_in_major_war_time = 0.5
-			drift_defence_factor = -0.5
-			puppet_cost_factor = -1
-		}
-
-		can_be_boosted = yes
-		can_collaborate = yes
-
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0 # This doesn't matter - anarchists can't make factions
-		}
-
-		ai_democratic = yes # Uses edited Democratic AI - seems weird, but the Democratic AI works fairly well for Anarchism based on focus on liberation and installation of new governments
-	}
-
-	arab_nationalism = {
-
-		types = {
-
-			baathism = {
-			}
-
-			nasserism = {
-			}
-		}
-
-		dynamic_faction_names = {
-			"FACTION_NAME_ARAB_NATIONALISM_1"
-		}
-
-		color = { 0 48 24 } # Shade of green used in the Pan-Arab flag - I think it works well for Arab Nationalism
-
-		rules = {
-			can_create_collaboration_government = yes
-			can_declare_war_on_same_ideology = no # Arab Nationalism depends a lot on Pan-Arabism - having fights between two Arab Nationalist countries doesn't make much sense
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = no
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = yes
-		}
-
-		can_host_government_in_exile = yes
-
-		war_impact_on_world_tension = 0.5 # Moderate value
-		faction_impact_on_world_tension = 0.5 # Moderate value
-
-		modifiers = {
-			generate_wargoal_tension = 0
-			join_faction_tension = 0
-			lend_lease_tension = 0
-			send_volunteers_tension = 0.2
-			guarantee_tension = 0
-			take_states_cost_factor = 0
-			annex_cost_factor = 0
-			justify_war_goal_when_in_major_war_time = 0.5
-			drift_defence_factor = 0.5 # Pan-Arabism is often times radical - they wouldn't give up their ideology very easily
-			puppet_cost_factor = 0
-		}
-
-		can_be_boosted = yes
-		can_collaborate = yes
-
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50
-		}
-		ai_fascist = yes # Uses the Fascist AI - focuses on conquering and integrating territory
-	}
 	
 	democratic = {
 	
@@ -126,6 +12,12 @@ ideologies = {
 		
 			socialism = {
 			}
+			wilsonianism = {
+
+			}
+			social_democracy = {
+
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -137,16 +29,15 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 0 128 255 }
+		color = { 0 0 255 }
 		
 		rules = {
 			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
+			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = no
-			can_puppet = no
+			can_puppet = yes #no
 			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -156,10 +47,10 @@ ideologies = {
 		faction_impact_on_world_tension = 0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
+			generate_wargoal_tension = 0.55
+			join_faction_tension = 0.60
+			lend_lease_tension = 0.20
+			send_volunteers_tension = 0.25
 			guarantee_tension = 0.25
 			annex_cost_factor = 0.5
 			civilian_intel_to_others = 20.0
@@ -171,7 +62,7 @@ ideologies = {
 		faction_modifiers = {
 			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
 		}
-		ai_democratic = yes # uses the democratic AI behaviour
+		ai_neutral = yes # uses the democratic AI behaviour
 	}
 
 
@@ -190,6 +81,18 @@ ideologies = {
 			
 			anti_revisionism = {
 			}
+			
+			anarchist_communism = {
+			}
+
+			communism_with_american_characteristics = {
+			}
+
+			syndicalism = {
+			}
+			
+			black_belt_communism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -198,9 +101,10 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_3"
 			"FACTION_NAME_COMMUNIST_4"
 			"FACTION_NAME_COMMUNIST_5"
+			"FACTION_NAME_COMMUNIST_6"
 		}
 		
-		color = { 153 0 0 }
+		color = { 255 0 0 }
 		
 		war_impact_on_world_tension = 0.75		#Commie less threatening
 		faction_impact_on_world_tension = 0.5
@@ -245,6 +149,15 @@ ideologies = {
 			
 			rexism = {
 			}
+			viking_dictatorship = {
+				can_be_randomly_selected = no
+			}
+			fanatical_theocracy = {
+				
+			}
+			fascist_military_dictatorship = {
+				
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -255,7 +168,7 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 255 128 0 }
+		color = { 150 75 0 }
 		
 		war_impact_on_world_tension = 1.0			#evil!
 		faction_impact_on_world_tension = 1.0
@@ -289,11 +202,30 @@ ideologies = {
 			
 			oligarchism  = {
 			}
+
+			anarchism = {
+				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+			}
 			
 			moderatism = {
 			}
 			
 			centrism = {
+			}
+			
+			junta = {
+			}
+			
+			mandatism = {
+			}
+			
+			NOI_ideology = { 
+			can_be_randomly_selected = no
+			}
+			
+			
+            sovietmonarchism = {
+				can_be_randomly_selected = no
 			}
 		}
 
@@ -305,7 +237,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 222 169 24 }
+		color = { 124 124 124 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -314,16 +246,15 @@ ideologies = {
 		rules = {
 			can_force_government = no
 			can_puppet = yes
-			can_send_volunteers = no
+			can_send_volunteers = yes
 		}
 		
 		modifiers = {
-			#increased_influence_factor = 0.3 #30% easier to influence
-			generate_wargoal_tension = 0.5
-			join_faction_tension = 0.4
-			lend_lease_tension = 0.4
-			send_volunteers_tension = 0.4
-			guarantee_tension = 0.4
+			generate_wargoal_tension = 0.25
+			join_faction_tension = 0.2
+			lend_lease_tension = 0.15
+			send_volunteers_tension = 0.15
+			guarantee_tension = 0.25
 			drift_defence_factor = -0.3	
 			civilian_intel_to_others = 20.0
 			army_intel_to_others = 10.0
@@ -335,5 +266,132 @@ ideologies = {
 		}
 
 		ai_neutral = yes # 
+	}
+
+	longism = {
+
+		types = {
+			hueyism = {
+				can_be_randomly_selected = no
+			}
+			southern_populism = {
+
+			}
+			populism = {
+
+			}
+			national_populism = {
+				
+			}
+			armstrongist_populism = {
+			can_be_randomly_selected = no
+			
+			}
+			#prodistant
+			religous_autocrat_theocracy_P = {
+				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+
+			}
+			#catholic
+			religous_autocrat_theocracy_C = {
+				can_be_randomly_selected = no # won't be assigned to randomly generated country leaders
+
+			}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_LONGISM_1"
+		}
+
+		color = { 10 5 100 }
+
+		war_impact_on_world_tension = 0.5 #Just the longs
+		faction_impact_on_world_tension = 0.5 #Just the Hueys
+
+		rules = {
+			can_force_government = no
+			can_puppet = yes
+			can_send_volunteers = yes
+		}
+
+		modifiers = {
+			generate_wargoal_tension = 0.15
+			join_faction_tension = 0.1
+			send_volunteers_tension = 0.05
+			guarantee_tension = 0.25
+			drift_defence_factor = 0.5
+			justify_war_goal_when_in_major_war_time	= -0.5
+			civilian_intel_to_others = 15.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+
+		can_be_boosted = yes
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.5
+		}
+		ai_neutral = yes # 
+	}
+
+	progressivism = {
+
+		types = {
+			roosevelt_progressivism = {
+				can_be_randomly_selected = no
+			}
+			progressivism_ideology = {
+
+			}
+			environmentalism = {
+
+			}
+			progressive_socialism = {
+				
+			}
+			revisionist_socialism = {
+				
+			}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_PROGRESSIVISM_1"
+		}
+		
+		color = { 0 255 0 }
+		
+		rules = {
+			can_create_collaboration_government = no
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = yes
+		}
+		
+		can_host_government_in_exile = yes
+		
+		war_impact_on_world_tension = 0.25		# no major danger, remember this this the 40s!
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 0.50
+			join_faction_tension = 0.50
+			lend_lease_tension = 0.30
+			send_volunteers_tension = 0.30
+			guarantee_tension = 0.25
+			annex_cost_factor = 0.5
+			civilian_intel_to_others = 20.0
+			army_intel_to_others = 5.0
+			navy_intel_to_others = 20.0
+			airforce_intel_to_others = 5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_neutral = yes # uses the democratic AI behaviour
 	}
 }
