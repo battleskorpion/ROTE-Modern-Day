@@ -1,9 +1,6 @@
 name="Republics Of The East"
 version="0.2.1"
-supported_version="1.11.*"
-path="C:/Users/daria/Documents/Paradox Interactive/Hearts of Iron IV/mod/ROTE-Modern-Day"
 user_dir="ROTEmodernday"
-remote_file_id="2593728043"
 picture="thumbnail.png"
 tags={
 	"Map"
@@ -49,4 +46,6 @@ replace_path="history/states"
 replace_path="history/units"
 replace_path="map/strategicregions"
 replace_path="map/supplyareas"
-
+supported_version="1.12.*"
+path="C:/Users/daria/Documents/Paradox Interactive/Hearts of Iron IV/mod/ROTE-Modern-Day"
+remote_file_id="2593728043"
